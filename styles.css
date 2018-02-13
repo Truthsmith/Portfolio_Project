@@ -1,16 +1,15 @@
 body {
 	background-color: #8cc5ed;
-
 	background-image:linear-gradient(#3711f2, #8cc5ed);
 	font-size: 0.7em;
+	font-family: 'Oxygen', sans-serif;
 }
 
 .introduction {
-	font-family: 'Oxygen', sans-serif;
 	text-align: right;
 	color: #f5f071;
 	border-bottom: 2px solid #f5f071;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 }
 
 .logo {
@@ -24,8 +23,22 @@ body {
 	justify-content: center;
 }
 
+.credits {
+	text-align: right;
+	color: #f5f071;
+	border-top: #f5f071;
+	font-size: 1em;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: #f5f071;
+}
+
 h2 {
-	font-family: 'Oxygen', sans-serif;
 	text-align: center;
 	color: #f5f071;
 }
@@ -36,8 +49,8 @@ img.main {
 }
 
 img.project {
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	margin: 10px;
 	border: 2px solid black;
 	border-radius: 10px;
@@ -49,14 +62,10 @@ img.project:hover {
 }
 
 @media screen and (min-width: 450px) {
-	body {font-size: 1em; } 
+	body { font-size: 1em; }
 }
 
 @media screen and (min-width: 750px) {
-	body {font-size: 2em; } 
+	body { font-size: 2em; }
+	.credits { font-size: 0.5em; }
 }
-/*
-picture credit
-Photo by Maik Jonietz on Unsplash
-*/
-
